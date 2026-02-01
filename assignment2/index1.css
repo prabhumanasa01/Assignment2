@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    line-height: 1.5;
+    color: #333;
+    background-color: #d2d0d0;
+    height: 100vh;
+    
+}
+
+.navbar{
+    display: flex;  /*imp*/
+    justify-content: space-between;   /*imp*/
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    margin-bottom: 30px;  /*imp creates gap btn nav and hero*/
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 650rem;
+    margin-bottom: 0.2rem;
+   
+}
+.nav-links{ 
+   display: flex;
+   list-style: none; /*imp*/
+}
+.nav-links li{
+    margin: 0 13px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(101, 99, 99);
+}
+.nav-links a:hover{
+    color: rgb(47, 46, 46);
+}
+.user-btn{
+    background-color: rgb(101, 234, 244);
+    color: #2e7cb3;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 8.5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.hero-container{  /*main section*/
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 3vw;
+   background-color: white;
+    
+    
+}
+.hero-left h1{
+    font-size: 3rem;
+    line-height: 2.9rem;
+    color: #333;
+    margin-bottom: 20px; /* for caption, imp section*/
+}
+.accent{
+    color: #3498db;  /*accent is class name of span*/
+}
+.hero-left p{
+color: #777;
+font-size: 1.2rem;
+margin-bottom: 30px;
+max-width: 500px;
+}
+.cta-button{
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8.5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.hero-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.hero-right img{
+    max-height: 100vh;
+    width: auto;
+}
